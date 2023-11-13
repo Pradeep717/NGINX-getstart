@@ -53,3 +53,4 @@
 2023/11/13 10:42:13 [notice] 26328#3964: signal process started
 2023/11/13 10:53:52 [notice] 748#17696: signal process started
 2023/11/13 11:02:19 [notice] 21872#27612: signal process started
+2023/11/13 11:04:26 [error] 16240#24920: *10 CreateFile() "C:\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
