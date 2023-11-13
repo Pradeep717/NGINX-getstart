@@ -1,0 +1,55 @@
+2023/11/10 13:33:57 [error] 16764#3536: *1 CreateFile() "D:\Pradeep\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/11/10 13:51:31 [error] 16888#15196: *1 CreateFile() "C:\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/11/10 13:53:32 [notice] 18232#4852: signal process started
+2023/11/10 13:54:10 [error] 14612#16892: *3 CreateFile() "C:\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/11/10 13:59:53 [notice] 13288#8252: signal process started
+2023/11/10 14:00:12 [error] 15468#18948: *6 directory index of "C:/nginx/htdocs/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8080"
+2023/11/10 14:06:33 [notice] 11484#12768: signal process started
+2023/11/10 14:21:02 [error] 17952#2068: *1 CreateFile() "C:/nginx/htdocs/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2023/11/10 14:29:14 [emerg] 15584#13120: no "events" section in configuration
+2023/11/10 14:30:36 [emerg] 8964#18236: unknown directive "evets" in C:\nginx/conf/nginx.conf:8
+2023/11/10 14:30:53 [notice] 2104#1316: signal process started
+2023/11/10 14:34:09 [notice] 4748#1764: signal process started
+2023/11/10 14:40:41 [notice] 12796#6640: signal process started
+2023/11/10 14:41:01 [notice] 7240#6172: signal process started
+2023/11/10 14:42:30 [notice] 5448#14140: signal process started
+2023/11/10 14:42:47 [error] 17340#17776: *15 CreateFile() "C:/nginx/htdocs/new" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /new HTTP/1.1", host: "localhost:8080"
+2023/11/10 14:42:50 [error] 17340#17776: *15 CreateFile() "C:/nginx/htdocs/new" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /new HTTP/1.1", host: "localhost:8080"
+2023/11/10 14:43:03 [notice] 19608#19664: signal process started
+2023/11/10 14:48:10 [notice] 14304#7508: signal process started
+2023/11/10 16:17:57 [emerg] 3396#23864: duplicate location "/" in C:\nginx/conf/nginx.conf:12
+2023/11/10 16:18:09 [notice] 12080#3676: signal process started
+2023/11/10 16:19:59 [error] 7844#14272: *29 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /a HTTP/1.1", upstream: "http://[::1]:4000/", host: "localhost"
+2023/11/10 16:20:02 [error] 7844#14272: *29 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /a HTTP/1.1", upstream: "http://127.0.0.1:4000/", host: "localhost"
+2023/11/10 16:21:59 [error] 7844#14272: *36 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /a HTTP/1.1", upstream: "http://127.0.0.1:4000/", host: "localhost"
+2023/11/10 16:22:01 [error] 7844#14272: *36 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /a HTTP/1.1", upstream: "http://[::1]:4000/", host: "localhost"
+2023/11/11 15:23:35 [error] 7844#14272: *42 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://[::1]:3000/", host: "localhost"
+2023/11/11 15:28:04 [error] 7844#14272: *46 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2023/11/11 15:28:06 [error] 7844#14272: *46 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://[::1]:3000/", host: "localhost"
+2023/11/11 15:28:24 [error] 7844#14272: *46 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "localhost"
+2023/11/11 15:28:26 [error] 7844#14272: *46 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://[::1]:3000/", host: "localhost"
+2023/11/13 10:03:30 [notice] 8624#17696: signal process started
+2023/11/13 10:04:55 [notice] 25848#27120: signal process started
+2023/11/13 10:06:07 [notice] 1880#26888: signal process started
+2023/11/13 10:07:37 [notice] 22312#2796: signal process started
+2023/11/13 10:08:00 [notice] 26932#6344: signal process started
+2023/11/13 10:24:59 [notice] 23000#23096: signal process started
+2023/11/13 10:26:45 [notice] 11232#23044: signal process started
+2023/11/13 10:28:14 [emerg] 10124#4604: "events" directive is not allowed here in C:\nginx/conf/nginx.conf:26
+2023/11/13 10:28:16 [emerg] 25288#22840: "events" directive is not allowed here in C:\nginx/conf/nginx.conf:26
+2023/11/13 10:28:56 [emerg] 19188#21572: no "events" section in configuration
+2023/11/13 10:28:58 [emerg] 13548#4888: no "events" section in configuration
+2023/11/13 10:29:16 [emerg] 26584#4672: unexpected end of file, expecting ";" or "}" in C:\nginx/conf/nginx.conf:31
+2023/11/13 10:36:50 [notice] 10864#24208: signal process started
+2023/11/13 10:38:17 [error] 15928#12376: *1 CreateFile() "C:\nginx/html/server2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /server2 HTTP/1.1", host: "localhost"
+2023/11/13 10:38:58 [error] 15928#12376: *6 CreateFile() "C:\nginx/html/server1" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /server1 HTTP/1.1", host: "localhost:81"
+2023/11/13 10:38:58 [error] 15928#12376: *6 CreateFile() "C:\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/server1"
+2023/11/13 10:39:32 [warn] 18944#17092: conflicting server name "" on 0.0.0.0:80, ignored
+2023/11/13 10:39:32 [notice] 18944#17092: signal process started
+2023/11/13 10:39:32 [warn] 27368#22808: conflicting server name "" on 0.0.0.0:80, ignored
+2023/11/13 10:39:51 [notice] 25772#21940: signal process started
+2023/11/13 10:40:06 [error] 15928#12376: *11 CreateFile() "C:\nginx/html/server2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /server2 HTTP/1.1", host: "localhost"
+2023/11/13 10:40:07 [error] 12952#11468: *12 CreateFile() "C:\nginx/html/server2" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /server2 HTTP/1.1", host: "localhost"
+2023/11/13 10:42:13 [notice] 26328#3964: signal process started
+2023/11/13 10:53:52 [notice] 748#17696: signal process started
+2023/11/13 11:02:19 [notice] 21872#27612: signal process started
